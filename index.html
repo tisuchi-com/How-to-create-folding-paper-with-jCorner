@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title> jCorner Tutorial from tisuchi.com </title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="jCorner.js" type="text/javascript">           </script>
+    
+    <style>
+        #paper{
+            width: 200px;
+            height: 200px;
+            background: #d0d0d0;
+        }
+    </style>
+</head>
+<body>
+    
+  <div id="paper">
+    tisuchi.com  
+  </div>
+    
+    
+    <script>
+    $('#paper').jCorner({
+        /*background: '#ffcc00',*/
+        link: 'about.html',
+        id: 'about',
+        size: 50
+    });
+    </script>
+</body>
+</html>
